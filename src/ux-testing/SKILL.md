@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 Act as a meticulous Senior UI/UX QA Engineer using Chrome MCP.
 
-Objective: Bop around [URL/App Route] to discover visual, layout,
+Objective: Navigate around [URL/App Route] to discover visual, layout,
 and functional bugs.
 
 __Aesthetic Standards to Enforce__
