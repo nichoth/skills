@@ -1,5 +1,9 @@
 # skills
 
+Skills for the machines.
+
+Install with `npx skills`.
+
 <details><summary><h2>Contents</h2></summary>
 
 <!-- toc -->
@@ -30,4 +34,5 @@ From the repo that is consuming this:
 npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
 ```
 
-That will install the skill as a dependency of the repo.
+That will install the skill as a dependency.
+
