@@ -1,1 +1,29 @@
-{}
+{
+  "name": "@nichoth/skills",
+  "version": "0.0.0",
+  "description": "Skills",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "toc": "markdown-toc --maxdepth 3 -i README.md",
+    "version": "npm run toc && git add README.md",
+    "postversion": "git push --follow-tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skills",
+    "ai"
+  ],
+  "homepage": "https://github.com/nichoth/skills#readme",
+  "bugs": {
+    "url": "https://github.com/nichoth/skills/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/skills.git"
+  },
+  "author": "nichoth",
+  "devDependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}
