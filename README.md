@@ -38,7 +38,9 @@ From the repo that is consuming this:
 npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
 ```
 
-That will install the skill as a dependency.
+That will install the skill as a dependency. The `-a` flag is for agent.
+`-a claude-code` installs skills in `.claude/skills/`, `-a universal` installs
+them in `.agents/skills`. 
 
 
 ## See Also
