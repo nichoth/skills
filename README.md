@@ -44,3 +44,4 @@ That will install the skill as a dependency.
 ## See Also
 
 * ["description" in frontmatter is the trigger](https://youtu.be/5Bmp9cz1JN8?t=261)
+  (This is only relevant in skills where `disable-model-invocation` is false.)
