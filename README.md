@@ -19,11 +19,14 @@ Install with `npx skills`.
 
 See [SKILL.md](src/ux-testing/SKILL.md).
 
-> Run a UI/UX and functional QA audit on a target web application or URL using
-> Chrome MCP to catch visual layout bugs, broken states, and console errors.
-
-```
+```yaml
+---
+name: ux-testing
+description: >
+  Run a UI/UX and functional QA audit on a target web application or URL using
+  Chrome MCP to catch visual layout bugs, broken states, and console errors.
 disable-model-invocation: true
+---
 ```
 
 ### Install
