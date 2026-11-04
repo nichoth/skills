@@ -10,6 +10,7 @@ Install with `npx skills`.
 
 - [UX Testing](#ux-testing)
   * [Install](#install)
+- [See Also](#see-also)
 
 <!-- tocstop -->
 
@@ -39,3 +40,7 @@ npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
 
 That will install the skill as a dependency.
 
+
+## See Also
+
+* ["description" in frontmatter is the trigger](https://youtu.be/5Bmp9cz1JN8?t=261)
