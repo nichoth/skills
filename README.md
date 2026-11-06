@@ -16,6 +16,25 @@ Install with `npx skills`.
 
 </details>
 
+## Adversarial Review
+
+```yaml
+---
+name: adversarial-review
+description: >
+  Adversarial review of two git worktrees to find bugs/quality issues before
+  merge. Do not use for simple diffs or neutral walkthroughs.
+disable-model-invocation: true
+---
+```
+
+### Install
+
+```sh
+npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
+```
+
+
 ## UX Testing
 
 See [SKILL.md](src/ux-testing/SKILL.md).
@@ -32,7 +51,7 @@ disable-model-invocation: true
 
 ### Install
 
-From the repo that is consuming this:
+From the repo that consumes this:
 
 ```sh
 npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
@@ -40,7 +59,7 @@ npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
 
 That will install the skill as a dependency. The `-a` flag is for agent.
 `-a claude-code` installs skills in `.claude/skills/`, `-a universal` installs
-them in `.agents/skills`. 
+them in `.agents/skills/`. 
 
 
 ## See Also
