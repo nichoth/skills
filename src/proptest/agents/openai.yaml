@@ -1,0 +1,3 @@
+interface:
+  display_name: "Proptest"
+  short_description: "Property-testing suites and independently reviewable fixes"

@@ -16,6 +16,31 @@ Install with `npx skills`.
 
 </details>
 
+## Prop Testing
+
+Forked from [inanna-malick/agent-skills](https://github.com/inanna-malick/agent-skills/blob/ee03a7bcc316dfbaed56cfda16006ac10840d78a/skills/proptest-praxis/SKILL.md).
+Removed some Rust-specific parts, converted to `npm` package manager,
+disabled model-invocation.
+
+```yaml
+name: proptest
+description: >
+  Build model-based property-testing suites to find correctness bugs,
+  then reduce failures to deterministic regression tests and minimal fixes.
+  Use for broad property-testing coverage of custom data structures and
+  algorithms, including operation-sequence generators and independent
+  reference models.
+disable-model-invocation: true
+```
+
+### Install
+
+```sh
+npx skills add nichoth/skills --skill proptest -a claude-code -a universal
+```
+
+---
+
 ## Adversarial Review
 
 ```yaml
