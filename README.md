@@ -8,8 +8,12 @@ Install with `npx skills`.
 
 <!-- toc -->
 
-- [UX Testing](#ux-testing)
+- [Prop Testing](#prop-testing)
   * [Install](#install)
+- [Adversarial Review](#adversarial-review)
+  * [Install](#install-1)
+- [UX Testing](#ux-testing)
+  * [Install](#install-2)
 - [See Also](#see-also)
 
 <!-- tocstop -->
@@ -19,8 +23,11 @@ Install with `npx skills`.
 ## Prop Testing
 
 Forked from [inanna-malick/agent-skills](https://github.com/inanna-malick/agent-skills/blob/ee03a7bcc316dfbaed56cfda16006ac10840d78a/skills/proptest-praxis/SKILL.md).
-Removed some Rust-specific parts, converted to `npm` package manager,
-disabled model-invocation.
+
+* Remove some Rust-specific parts
+* convert to `npm` package manager
+* use `fast-check`
+* disable model-invocation
 
 ```yaml
 name: proptest
