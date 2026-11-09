@@ -26,7 +26,7 @@ Forked from [inanna-malick/agent-skills](https://github.com/inanna-malick/agent-
 
 * Remove some Rust-specific parts
 * convert to `npm` package manager
-* use `fast-check`
+* use `fast-check`, because Typescript
 * disable model-invocation
 
 ```yaml
