@@ -8,7 +8,7 @@ Install with `npx skills`.
 
 <!-- toc -->
 
-- [Corvidae-Coding-Projects/real-testing](#corvidae-coding-projectsreal-testing)
+- [real-testing](#real-testing)
   * [Install](#install)
 - [Prop Testing](#prop-testing)
   * [Install](#install-1)
@@ -22,7 +22,7 @@ Install with `npx skills`.
 
 </details>
 
-## Corvidae-Coding-Projects/real-testing
+## real-testing
 
 Forked from [Corvidae-Coding-Projects](https://github.com/Corvidae-Coding-Projects/Project-Peritus/tree/9af00845b71a4ee793ecc2f9b5d05adb749a009d/skills/real-testing).
 
