@@ -41,7 +41,7 @@ disable-model-invocation: true
 ### Install
 
 ```sh
-npx skills add https://github.com/Corvidae-Coding-Projects/Project-Peritus/tree/main/skills/real-testing
+npx skills add nichoth/skills --skill real-testing -a claude-code -a universal
 ```
 
 ---
