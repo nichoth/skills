@@ -24,6 +24,20 @@ Install with `npx skills`.
 
 ## Corvidae-Coding-Projects/real-testing
 
+Forked from [Corvidae-Coding-Projects](https://github.com/Corvidae-Coding-Projects/Project-Peritus/tree/9af00845b71a4ee793ecc2f9b5d05adb749a009d/skills/real-testing).
+
+Added the `disable-model-invocation: true`.
+
+```yaml
+---
+name: real-testing
+description: >
+  Verify behavior by building and operating the actual program,
+  exploring varied inputs and recovery, and preserving reproducible failures.
+disable-model-invocation: true
+---
+```
+
 ### Install
 
 ```sh
