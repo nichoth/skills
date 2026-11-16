@@ -8,17 +8,29 @@ Install with `npx skills`.
 
 <!-- toc -->
 
-- [Prop Testing](#prop-testing)
+- [Corvidae-Coding-Projects/real-testing](#corvidae-coding-projectsreal-testing)
   * [Install](#install)
-- [Adversarial Review](#adversarial-review)
+- [Prop Testing](#prop-testing)
   * [Install](#install-1)
-- [UX Testing](#ux-testing)
+- [Adversarial Review](#adversarial-review)
   * [Install](#install-2)
+- [UX Testing](#ux-testing)
+  * [Install](#install-3)
 - [See Also](#see-also)
 
 <!-- tocstop -->
 
 </details>
+
+## Corvidae-Coding-Projects/real-testing
+
+### Install
+
+```sh
+npx skills add https://github.com/Corvidae-Coding-Projects/Project-Peritus/tree/main/skills/real-testing
+```
+
+---
 
 ## Prop Testing
 
@@ -63,7 +75,7 @@ disable-model-invocation: true
 ### Install
 
 ```sh
-npx skills add nichoth/skills --skill ux-testing -a claude-code -a universal
+npx skills add nichoth/skills --skill adversarial-review -a claude-code -a universal
 ```
 
 
@@ -98,3 +110,4 @@ them in `.agents/skills/`.
 
 * ["description" in frontmatter is the trigger](https://youtu.be/5Bmp9cz1JN8?t=261)
   (This is only relevant in skills where `disable-model-invocation` is false.)
+* [Corvidae-Coding-Projects/real-testing](https://github.com/Corvidae-Coding-Projects/Project-Peritus/tree/9af00845b71a4ee793ecc2f9b5d05adb749a009d/skills/real-testing)
