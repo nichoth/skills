@@ -8,19 +8,48 @@ Install with `npx skills`.
 
 <!-- toc -->
 
-- [real-testing](#real-testing)
+- [Deslop](#deslop)
   * [Install](#install)
-- [Prop Testing](#prop-testing)
+- [real-testing](#real-testing)
   * [Install](#install-1)
-- [Adversarial Review](#adversarial-review)
+- [Prop Testing](#prop-testing)
   * [Install](#install-2)
-- [UX Testing](#ux-testing)
+- [Adversarial Review](#adversarial-review)
   * [Install](#install-3)
+- [UX Testing](#ux-testing)
+  * [Install](#install-4)
 - [See Also](#see-also)
 
 <!-- tocstop -->
 
 </details>
+ 
+## Deslop
+
+```yaml
+---
+name: deslop
+description: >
+  Remove AI writing patterns from prose. Use this skill when writing, drafting,
+  editing, reviewing, or revising any text to eliminate predictable AI tells,
+  slop, and formulaic patterns. Trigger this skill whenever the user asks to
+  "deslop", "de-AI", "make it sound human," "remove AI patterns,"
+  "remove AI tropes," "clean up AI writing," fix "slop," "deslop" text,
+  or review prose for authenticity. Also use when the user asks you to write
+  or draft anything and wants it to sound natural rather than AI-generated.
+  Common use cases include scientific writing (manuscripts, abstracts,
+  cover letters, grant narratives, discussion sections, peer review responses),
+  blog posts, newsletters, memos, reports, and any other substantial prose.
+---
+```
+
+### Install
+
+```sh
+npx skills add nichoth/skills --skill deslop -a claude-code -a universal
+```
+
+---
 
 ## real-testing
 
