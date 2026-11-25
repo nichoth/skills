@@ -18,6 +18,8 @@ Install with `npx skills`.
   * [Install](#install-3)
 - [UX Testing](#ux-testing)
   * [Install](#install-4)
+- [Nested tickets](#nested-tickets)
+  * [Install](#install-5)
 - [See Also](#see-also)
 
 <!-- tocstop -->
@@ -148,6 +150,24 @@ That will install the skill as a dependency. The `-a` flag is for agent.
 `-a claude-code` installs skills in `.claude/skills/`, `-a universal` installs
 them in `.agents/skills/`. 
 
+
+## Nested tickets
+
+See [SKILL.md](src/nested-tickets/SKILL.md).
+
+Prepare parent tickets for Claude/Codex and small child tickets for Tiiny.
+Children produce independently checked artifacts before the parent starts
+integration and acceptance. Each child gets one correction attempt before
+cloud repair of the same ticket.
+
+The skill writes tickets; the runner or operator handles executor routing
+and completion checks.
+
+### Install
+
+```sh
+npx skills add nichoth/skills --skill nested-tickets -a claude-code -a universal
+```
 
 ## See Also
 
