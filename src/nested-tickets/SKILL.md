@@ -1,5 +1,6 @@
 ---
 name: nested-tickets
+disable-model-invocation: true
 description: >
   Use when a spec needs parent tickets for Claude or Codex and small
   child tickets for Tiiny to reduce cloud token use.
