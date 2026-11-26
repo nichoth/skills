@@ -14,10 +14,8 @@ Install with `npx skills`.
   * [Install](#install-1)
 - [Prop Testing](#prop-testing)
   * [Install](#install-2)
-- [Adversarial Review](#adversarial-review)
-  * [Install](#install-3)
 - [UX Testing](#ux-testing)
-  * [Install](#install-4)
+  * [Install](#install-3)
 - [Nested tickets](#nested-tickets)
   * [Install `nested-tickets`](#install-nested-tickets)
 - [Adversary](#adversary)
@@ -106,25 +104,6 @@ npx skills add nichoth/skills --skill proptest -a claude-code -a universal
 ```
 
 ---
-
-## Adversarial Review
-
-```yaml
----
-name: adversarial-review
-description: >
-  Adversarial review of two git worktrees to find bugs/quality issues before
-  merge. Do not use for simple diffs or neutral walkthroughs.
-disable-model-invocation: true
----
-```
-
-### Install
-
-```sh
-npx skills add nichoth/skills --skill adversarial-review -a claude-code -a universal
-```
-
 
 ## UX Testing
 
