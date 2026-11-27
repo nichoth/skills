@@ -19,7 +19,7 @@ Install with `npx skills`.
 - [Nested tickets](#nested-tickets)
   * [Install `nested-tickets`](#install-nested-tickets)
 - [Adversary](#adversary)
-  * [Install `adversary`](#install-adversary)
+  * [Install `adversary` skill](#install-adversary-skill)
 - [See Also](#see-also)
 
 <!-- tocstop -->
@@ -181,7 +181,7 @@ impact. Distinguish confirmed bugs from unverified risks; do not invent
 findings to fill a severity level. State any limits on the review.
 ```
 
-### Install `adversary`
+### Install `adversary` skill
 
 ```sh
 npx skills add nichoth/skills --skill adversary -a claude-code -a universal
@@ -192,3 +192,11 @@ npx skills add nichoth/skills --skill adversary -a claude-code -a universal
 * ["description" in frontmatter is the trigger](https://youtu.be/5Bmp9cz1JN8?t=261)
   (This is only relevant in skills where `disable-model-invocation` is false.)
 * [Corvidae-Coding-Projects/real-testing](https://github.com/Corvidae-Coding-Projects/Project-Peritus/tree/9af00845b71a4ee793ecc2f9b5d05adb749a009d/skills/real-testing)
+* [Property Testing with Agent Swarms](https://recursion.wtf/posts/agents-and-property-tests/) ([@hikikomorphism](https://bsky.app/profile/hikikomorphism.bsky.social))
+* [kunchenguid/vision](https://github.com/kunchenguid/vision)
+* [addyosmani/adverse](https://github.com/addyosmani/adverse) -- CLI tool
+  and skill
+* [t3dotgg/tstack/sol-loop](https://www.skills.sh/t3dotgg/tstack/sol-loop)
+  ```sh
+  npx skills add https://github.com/t3dotgg/tstack --skill sol-loop
+  ```
