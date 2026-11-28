@@ -20,6 +20,8 @@ Install with `npx skills`.
   * [Install `nested-tickets`](#install-nested-tickets)
 - [Adversary](#adversary)
   * [Install `adversary` skill](#install-adversary-skill)
+- [Loop](#loop)
+  * [Install `loop`](#install-loop)
 - [See Also](#see-also)
 
 <!-- tocstop -->
@@ -185,6 +187,35 @@ findings to fill a severity level. State any limits on the review.
 
 ```sh
 npx skills add nichoth/skills --skill adversary -a claude-code -a universal
+```
+
+## Loop
+
+See [SKILL.md](src/loop/SKILL.md).
+
+Forked from [tstack/sol-loop](https://github.com/t3dotgg/tstack/blob/main/skills/sol-loop/SKILL.md).
+
+```yaml
+---
+name: loop
+disable-model-invocation: true
+description: Review loop
+---
+```
+
+Have a second model review your code changes in a loop, before (or
+sometimes after) filing a pull request. The agent makes the smallest
+change that answers each finding, and pushes back when it disagrees.
+
+The default budget is 3 rounds, extended to 5 for security, auth, data
+loss, or concurrency issues. The loop stops when the reviewer approves,
+when a round returns only nits, or when a finding stays disputed after
+two replies. It does not push unless you ask.
+
+### Install `loop`
+
+```sh
+npx skills add nichoth/skills --skill loop -a claude-code -a universal
 ```
 
 ## See Also
